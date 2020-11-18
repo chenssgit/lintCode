@@ -7,7 +7,7 @@ Copied from https://github.com/awangdev/LintCode
 |[1004. Max Consecutive Ones III.java](java/1004.Max_Consecutive_Ones_III.java) [py](java/1004.Max_Consecutive_Ones_III.py)|Medium|[Sliding Window, Two Pointers]|
 |[1007. Minimum Domino Rotations For Equal Row.java](java/1007.Minimum_Domino_Rotations_For_Equal_Row.java) [py](java/1007.Minimum_Domino_Rotations_For_Equal_Row.py)|Medium|[Array, Greedy]|
 |[1008. Construct Binary Search Tree from Preorder Traversal.java](java/1008.Construct_Binary_Search_Tree_from_Preorder_Traversal.java) [py](java/1008.Construct_Binary_Search_Tree_from_Preorder_Traversal.py)|Medium|[DFS, Tree]|
-|[100. Same Tree.java](java/0100.Same_Tree.java) [py](java/0100.Same_Tree.py)|**Easy**|[BFS, DFS, Tree]|
+|[100. Same Tree.java](java/0100.Same_Tree.java) [pydone](java/0100.Same_Tree.py)|**Easy**|[BFS, DFS, Tree]|
 |[101. Symmetric Tree.java](java/0101.Symmetric_Tree.java) [py](java/0101.Symmetric_Tree.py)|**Easy**|[BFS, DFS, Tree]|
 |[1021. Remove Outermost Parentheses.java](java/1021.Remove_Outermost_Parentheses.java) [py](java/1021.Remove_Outermost_Parentheses.py)|**Easy**|[Stack]|
 |[1026. Maximum Difference Between Node and Ancestor.java](java/1026.Maximum_Difference_Between_Node_and_Ancestor.java) [py](java/1026.Maximum_Difference_Between_Node_and_Ancestor.py)|Medium|[DFS, Tree]|
