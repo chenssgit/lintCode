@@ -44,12 +44,12 @@ The given board size is always 9x9.
 //20210801 60mins
 def solution(int[][] board){ int n=9;
   for(int i=0;i<n;i++){
-    boolean[] row=new boolean[9]; boolean[] col=new boolean[9]; boolean[] block=new boolean[9];
+    boolean[] row=new boolean[10]; boolean[] col=new boolean[10]; boolean[] block=new boolean[10];
     for(int j=0;j<n;j++){
       if(put(board[i][j], row)) return false;
       if(put(board[j][i], col)) return false;
       int x=i.intdiv(3)*3+j.intdiv(3);
-      int y=i.intdiv(3)*3+j%3;
+      int y=i%3*3+j%3;
       if(put(board[x][y], block)) return false;
     }
   }; return true;
@@ -58,8 +58,9 @@ def put(int i,boolean[] bs){ if(i==0) return false;
   if(bs[i]) return true;
   bs[i]=true;return false;
 }
-int[][] board=[[5,3,0,0,0,4,2,0,0],
-  [0,0,2,4,7,0,0,1,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],
-  [0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0]]
+int[][] board=[
+  [5,3,0,0,0,9,2,0,0],[0,0,2,4,7,0,0,1,0],[0,0,0,0,0,0,0,0,0],
+  [0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],
+  [0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0]]
 ret=solution(board);
 print ret;
